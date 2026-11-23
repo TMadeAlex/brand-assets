@@ -1,0 +1,29 @@
+TMadeAlex brand-assets - what the licences cover
+
+A draft, set up for TMade Alex as a gift by Christopher W (@drasticstatic), a
+member of his community. It is not legal advice, and no lawyer has reviewed it.
+
+1. TMade Alex's own work: all rights reserved.
+   The TRADERMADE wordmark, his TRADERMADE art and his photographs are TMade
+   Alex's. All rights in them are reserved to him. They sit outside every
+   licence named in this file: no licence is granted to copy, redistribute,
+   modify, publish or sell them without TMade Alex's prior written permission.
+   On the main branch there is no copy of any of them. A copy of his art waits
+   on a separate branch that has not been published; PROVENANCE.md lists each
+   file with where it came from and when.
+
+2. His names and marks.
+   TRADERMADE, TMade, TMade Alex, TMADE and TMadeAlex are covered by
+   TRADEMARKS.md, not by any licence here.
+
+3. What the gift made.
+   The written pages in this repository and the two drawn banners
+   (assets/banner.svg, banner/banner.svg) were made by Christopher W and his
+   helpers from the drasticstatic lab's public templates, which are MIT
+   licensed (https://github.com/drasticstatic/my-template). They may be copied
+   and changed on the same terms. The colours in them are sampled from TMade
+   Alex's art; using the colours grants no right in his marks.
+
+4. The icons.
+   The icons in assets/icons/ are from Lucide, under the ISC licence. See
+   assets/icons/LICENSE.
