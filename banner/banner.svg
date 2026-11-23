@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+  <title id="t">TMadeAlex</title>
+  <desc id="d">A home on GitHub for TMade Alex, set up as a gift by a member of his community. The picture: thin threads leave one point and find each other: 7 reach out, and each one meets its neighbour on the way. With reduced motion, the finished picture shows at once.</desc>
+  <style>
+    /* Motion only for readers who have not asked for less. Outside this block everything is in its finished state. */
+    @media (prefers-reduced-motion: no-preference) {
+      .draw { stroke-dasharray: 100; animation: draw 2.6s cubic-bezier(.4,0,.2,1) both; }
+      .arrive { animation: arrive .5s ease-out both; }
+      .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 8s steps(48) 3s infinite; }
+      .halo { transform-box: fill-box; transform-origin: center; animation: halo 5s steps(60) 3.6s infinite; }
+    }
+    @keyframes draw { from { stroke-dashoffset: 100 } to { stroke-dashoffset: 0 } }
+    @keyframes arrive { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes breathe { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.07) } }
+    @keyframes halo { 0% { opacity: .55; transform: scale(1) } 70%, 100% { opacity: 0; transform: scale(2.1) } }
+    .halo { opacity: 0 }
+  </style>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b121a"/><stop offset="1" stop-color="#0a101a"/></linearGradient>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="668" y1="0" x2="1160" y2="0"><stop offset="0.00" stop-color="#249094"/><stop offset="0.50" stop-color="#34d4d8"/><stop offset="1.00" stop-color="#96e9eb"/></linearGradient>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="620" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#34d4d8" stop-opacity="0"/><stop offset=".35" stop-color="#34d4d8"/><stop offset="1" stop-color="#96e9eb"/></linearGradient>
+    <clipPath id="card"><rect width="1200" height="260" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <!-- an opaque ground: the same picture on GitHub's light and dark themes -->
+    <rect width="1200" height="260" fill="url(#ground)"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C978.6 74.1 813.5 41.6 720.8 52.8" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.20s"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C1015.7 95.4 955.2 81.2 812.3 81.0" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.45s"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C1003.5 112.7 812.3 86.2 701.4 97.0" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.70s"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C988.9 122.8 852.2 133.6 768.5 129.7" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.95s"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C1004.4 120.5 844.2 139.4 724.8 149.3" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.20s"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C998.3 146.8 852.1 167.4 750.7 178.3" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.45s"/>
+    <path class="draw" pathLength="100" d="M1106.0 116.2C982.7 170.5 777.3 189.1 706.1 201.3" fill="none" stroke="url(#line)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.70s"/>
+    <path class="draw" pathLength="100" d="M865.7 59.0Q881.9 73.0 946.2 86.9" fill="none" stroke="#1d696f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.80s"/>
+    <path class="draw" pathLength="100" d="M720.8 52.8Q736.5 66.9 812.3 81.0" fill="none" stroke="#1d696f" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.40s"/>
+    <path class="draw" pathLength="100" d="M946.2 86.9Q895.4 93.5 892.5 100.2" fill="none" stroke="#1d696f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.05s"/>
+    <path class="draw" pathLength="100" d="M812.3 81.0Q726.9 89.0 701.4 97.0" fill="none" stroke="#1d696f" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.65s"/>
+    <path class="draw" pathLength="100" d="M892.5 100.2Q873.7 114.1 902.9 128.0" fill="none" stroke="#1d696f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.30s"/>
+    <path class="draw" pathLength="100" d="M701.4 97.0Q704.9 113.4 768.5 129.7" fill="none" stroke="#1d696f" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.90s"/>
+    <path class="draw" pathLength="100" d="M902.9 128.0Q872.8 130.8 890.6 133.7" fill="none" stroke="#1d696f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.55s"/>
+    <path class="draw" pathLength="100" d="M768.5 129.7Q716.6 139.5 724.8 149.3" fill="none" stroke="#1d696f" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.15s"/>
+    <path class="draw" pathLength="100" d="M890.6 133.7Q857.7 148.3 872.7 162.9" fill="none" stroke="#1d696f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.80s"/>
+    <path class="draw" pathLength="100" d="M724.8 149.3Q707.7 163.8 750.7 178.3" fill="none" stroke="#1d696f" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.40s"/>
+    <path class="draw" pathLength="100" d="M872.7 162.9Q823.5 173.8 822.2 184.7" fill="none" stroke="#1d696f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.05s"/>
+    <path class="draw" pathLength="100" d="M750.7 178.3Q698.4 189.8 706.1 201.3" fill="none" stroke="#1d696f" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.65s"/>
+    <circle class="arrive" style="animation-delay:1.40s" cx="720.8" cy="52.8" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:1.65s" cx="812.3" cy="81.0" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:1.90s" cx="701.4" cy="97.0" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:2.15s" cx="768.5" cy="129.7" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:2.40s" cx="724.8" cy="149.3" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:2.65s" cx="750.7" cy="178.3" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:2.90s" cx="706.1" cy="201.3" r="4.5" fill="#34d4d8"/>
+    <circle class="arrive" style="animation-delay:2.20s" cx="865.7" cy="59.0" r="2.5" fill="#1d696f"/>
+    <circle class="arrive" style="animation-delay:2.45s" cx="946.2" cy="86.9" r="2.5" fill="#1d696f"/>
+    <circle class="arrive" style="animation-delay:2.70s" cx="892.5" cy="100.2" r="2.5" fill="#1d696f"/>
+    <circle class="arrive" style="animation-delay:2.95s" cx="902.9" cy="128.0" r="2.5" fill="#1d696f"/>
+    <circle class="arrive" style="animation-delay:3.20s" cx="890.6" cy="133.7" r="2.5" fill="#1d696f"/>
+    <circle class="arrive" style="animation-delay:3.45s" cx="872.7" cy="162.9" r="2.5" fill="#1d696f"/>
+    <circle class="arrive" style="animation-delay:3.70s" cx="822.2" cy="184.7" r="2.5" fill="#1d696f"/>
+    <circle class="halo" cx="1106.0" cy="116.2" r="18" fill="none" stroke="#96e9eb" stroke-width="2"/>
+    <circle class="breathe" cx="1106.0" cy="116.2" r="14" fill="#34d4d8"/>
+    <circle cx="1106.0" cy="116.2" r="5.5" fill="#e6fafa"/>
+    <rect x="0.0" y="248" width="300.5" height="12" fill="#0c1719"/><rect x="300.0" y="248" width="300.5" height="12" fill="#249094"/><rect x="600.0" y="248" width="300.5" height="12" fill="#34d4d8"/><rect x="900.0" y="248" width="300.5" height="12" fill="#e6fafa"/>
+    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif"><text x="56" y="56.6" fill="#34d4d8" font-size="15" font-weight="700" letter-spacing=".6">IN TRADERMADE COLOURS</text><text x="56" y="122.2" fill="#e6fafa" font-size="60" font-weight="700" letter-spacing="-.5">TMadeAlex</text><text x="56" y="166.0" fill="#c7dadb" font-size="23">A home on GitHub for TMade Alex, set up as a gift</text><text x="56" y="196.8" fill="#c7dadb" font-size="23">by a member of his community.</text></g>
+  </g>
+</svg>
