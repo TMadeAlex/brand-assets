@@ -58,7 +58,7 @@ The rest, and how they are used, are in [`BRAND-GUIDELINES.md`](BRAND-GUIDELINES
 
 **On `main` there is no copy of his wordmark, his art or his photographs.** This shelf was set up before Alex had said
 what he wants shown, and a copy of someone's logo in a place with their name on it should wait for their yes. A
-branch with his four art files, `with-his-art`, exists only on Christopher's computer and goes up only if Alex says
+branch with his three art files, `with-his-art`, exists only on Christopher's computer and goes up only if Alex says
 yes. [`PROVENANCE.md`](PROVENANCE.md) lists each piece, where he publishes it, and when it was seen.
 
 Anything of his that arrives here is his alone. It sits outside this repository's licences, and nobody may reuse it

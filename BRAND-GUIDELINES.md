@@ -48,8 +48,8 @@ Three voices, as his Whop banner uses them:
 | Voice | What it looks like | Used for |
 |---|---|---|
 | The wordmark | heavy, rounded geometric sans, lower case | "tradermade." only |
-| Headlines | a clean geometric sans, medium weight, sentence case | "Trade with TMade Alex" |
-| Small lines | a monospace face in letter-spaced capitals, in mid teal or grey | "LIVE TRADING · NQ + ES · M–F", "JOIN VIP", the web address |
+| Headlines | a clean geometric sans, medium weight, sentence case | the headline on the banner, with his name in it |
+| Small lines | a monospace face in letter-spaced capitals, in mid teal or grey | the line under the wordmark, the small label above the headline, the web address |
 
 His pages do not name the typefaces. Until he does, a draft can use any free geometric sans and monospace that look
 close, and say that it is a stand-in.

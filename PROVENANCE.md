@@ -20,15 +20,15 @@ The colours in the banners were sampled from his art; the banners themselves con
 
 ## <img src="assets/icons/palette.svg" width="24" height="24" alt=""> His art, seen on his own pages
 
-[`BRAND-GUIDELINES.md`](BRAND-GUIDELINES.md) was drafted by looking at these four pieces. Each is his, all rights
-reserved.
+[`BRAND-GUIDELINES.md`](BRAND-GUIDELINES.md) was drafted by looking at the first three pieces. Each is his, all rights
+reserved. The fourth is Whop's, not his, and is listed because it was looked at.
 
 | What it is | Where he publishes it | Seen |
 |---|---|---|
 | the "tradermade." wordmark in a ring, on a dark circle: his channel picture | [YouTube @TMadeAlex](https://www.youtube.com/@TMadeAlex) | 2026-11-23 |
-| the wordmark, "LIVE TRADING · NQ + ES · M–F" and "Trade with TMade Alex": his community banner | [TRADERMADE on Whop](https://whop.com/tradermade) | 2026-11-23 |
+| the wordmark, a line of small capitals under it, and a headline with his name: his community banner | [TRADERMADE on Whop](https://whop.com/tradermade) | 2026-11-23 |
 | the community's square mark: the wordmark in a ring | [TRADERMADE on Whop](https://whop.com/tradermade) | 2026-11-23 |
-| the card Whop shows when the community page is shared, with Whop's own logo on it | [TRADERMADE on Whop](https://whop.com/tradermade) | 2026-11-23 |
+| the card Whop builds when the community page is shared: Whop's design and Whop's logo around a crop of his banner. Looked at, not kept | [TRADERMADE on Whop](https://whop.com/tradermade) | 2026-11-23 |
 
 ## <img src="assets/icons/git-branch.svg" width="24" height="24" alt=""> Why his art is not on `main`
 
@@ -36,7 +36,7 @@ This home was set up as a gift before TMade Alex had said what he wants shown. P
 a place that carries their name, before they have said yes, could look like speaking for them. So:
 
 - **`main`**, which is what GitHub shows, links to his own pages and copies nothing of his.
-- **`with-his-art`**, a separate branch, holds copies of the four pieces above in `logo/` and `art/`, so he can see at
+- **`with-his-art`**, a separate branch, holds copies of the first three pieces above in `logo/` and `art/`, so he can see at
   once how a brand shelf with his own files would look. It exists only on Christopher's computer. It has never been
   pushed, and it is pushed only if TMade Alex says yes. If he says no, it is never published.
 
