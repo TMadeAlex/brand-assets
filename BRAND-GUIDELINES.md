@@ -5,7 +5,7 @@
 ![Read](https://img.shields.io/badge/Read-2026--11--23-249094?style=flat-square)
 ![Not legal advice](https://img.shields.io/badge/Not-legal_advice-64748b?style=flat-square)
 
-> **A gift, and a draft.** Christopher W (@drasticstatic), a member of TMade Alex's community, wrote this page by
+> **A gift, and a draft.** A member of TMade Alex's community wrote this page by
 > looking closely at the art TMade Alex already uses on [YouTube](https://www.youtube.com/@TMadeAlex) and
 > [Whop](https://whop.com/tradermade), on 2026-11-23. It describes what is there; it decides nothing. Alex decides what
 > stays, and his own word on his brand always beats this page.

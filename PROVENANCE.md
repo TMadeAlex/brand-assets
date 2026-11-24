@@ -49,4 +49,4 @@ A helper adds one row for it: the file's name, what it shows, where it came from
 file keeps its bytes as they were unless the row says otherwise. A picture is shown in public only after a person
 approves its folder in [`PUBLIC-LANE-MEDIA.txt`](PUBLIC-LANE-MEDIA.txt).
 
-<sub>Set up for TMade Alex as a gift by Christopher W, a member of his community. Alex decides what stays.</sub>
+<sub>Set up for TMade Alex as a gift by a member of his community. Alex decides what stays.</sub>

@@ -16,8 +16,7 @@
 
 </div>
 
-> **A gift, and a draft.** Christopher W (@drasticstatic), a member of TMade Alex's community, set this shelf up for
-> Alex as a gift. Alex decides what stays. Not legal advice: no lawyer has reviewed it, and it says nothing on his
+> **A gift, and a draft.** A member of TMade Alex's community set this shelf up for Alex as a gift. Alex decides what stays. Not legal advice: no lawyer has reviewed it, and it says nothing on his
 > behalf.
 
 ## <img src="assets/icons/compass.svg" width="24" height="24" alt=""> TL;DR
